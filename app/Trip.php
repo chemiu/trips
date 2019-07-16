@@ -14,7 +14,7 @@ class Trip extends Model
     protected $table = 'trips';
 
     /**
-     * Get the phone record associated with the user.
+     * Get the country record associated with the destination.
      */
     public function country()
     {
